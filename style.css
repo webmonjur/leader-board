@@ -28,18 +28,19 @@ body{
 
 
 /* top section start */
-.top-section{
+.section-bg{
     background:#fff;
     border-radius:10px;
+    padding:20px 40px;
+    margin:20px 0;
 }
 .section-heading h2{
     color:#562EFF;
     font-size:24px;
-    margin:20px;
+    margin-left:15px;
 }
 .player-section{
     border-bottom:2px solid #c4c4c4;
-    padding:40px;
 }
 .player{
     display:flex;
@@ -56,10 +57,9 @@ body{
 
 
 /* blog section start */
-.blog-section{
-    padding:40px;
+.blog-heading{
+    margin-top:20px;
 }
-
 .blog-item{
     display:flex;
     margin:20px 0;
@@ -71,8 +71,54 @@ body{
     width:55%;
     margin:0 20px;
 }
-.blog-text h4{}
-.blog-text p{}
+
 .blog-text p span{
     color:#562EFF
+}
+
+
+/* latest course section */
+.course-heading{
+    margin:20px 0;
+}
+.course-item{
+    padding:20px;
+    box-shadow:0 0 15px #f3f3f3;
+    border-radius:20px;
+}
+.course-details{
+    margin-top:15px;
+}
+.course-details h4{
+    font-size:22px;
+    font-weight:500;
+}
+.course-details p{
+    color:red;
+}
+.checked{
+    color:orange;
+}
+.rat-duration{
+    justify-content: space-between;
+}
+.rating{
+    line-height:30px;
+}
+.duration{
+    width:120px;
+    height:35px;
+    display:flex;
+    background:#FFE4E8;
+    border-radius:30px;
+    padding:5px 5px;
+    padding-right:10px;
+    justify-content: space-between;
+    line-height:25px;
+}
+.duration img{
+    width:25px;
+}
+.duration span{
+    color:red;
 }
